@@ -1,0 +1,15 @@
+<html>
+  <head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
+  </head>
+  <body style="width: 100%; height: 100%; margin 0px;">
+    <ul>
+    <li>Clicking nodes toggle ON(red sign is also on) and OFF of input and teaching signals.</li>
+    <li>Clicking rectangle "M" button registers the current set of input and teaching signals to the training queue.</li>
+    <li>Clicking rectangle "R" button recalls a set of input and teaching signals from the queue.</li>
+    <li>Clicking circle "T" button starts training by using the current training queue.</li>
+    <li>Clicking circle "R" button starts running.</li>
+    </ul>
+	<canvas data-processing-sources="main.pde NeuralNet.pde Neuron.pde InputNeuron.pde HiddenNeuron.pde OutputNeuron.pde NeuronType.pde Connection.pde Weight.pde CoulombForce.pde" resize></canvas>
+  </body>
+</html>
